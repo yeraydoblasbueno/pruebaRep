@@ -54,6 +54,7 @@ public class Date {
   /**
    * Constructs a Date object representing a specific day, month, and year.
    *
+<<<<<<< HEAD
    * @param tag The day of the month (1-31).
    * @param monat The month of the year (1-12).
    * @param jahr The year (should ideally be within the valid range of 1900 to 2050 for validation
@@ -63,6 +64,17 @@ public class Date {
     this.day = tag;
     this.month = monat;
     this.year = jahr;
+
+   * @param day The day of the month (1-31).
+   * @param month The month of the year (1-12).
+   * @param year The year (should ideally be within the valid range of 1900 to 2050 for validation
+   *     to pass).
+   */
+  public Date(int day, int month, int year) {
+    this.day = day;
+    this.month = month;
+    this.year = year;
+
   }
 
   /**
